@@ -11,7 +11,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="20dp"
         android:background="@drawable/background">
@@ -39,7 +39,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="15dp"
             android:layout_marginEnd="20dp"
             android:layout_marginBottom="20dp"
             android:background="@drawable/layout_background"
@@ -50,7 +50,7 @@
                 android:id="@+id/signin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="50dp"
                 android:orientation="vertical">
 
                 <EditText
@@ -58,7 +58,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="25dp"
-                    android:layout_marginTop="20dp"
                     android:layout_marginEnd="25dp"
                     android:drawableStart="@drawable/ic_email_black_24dp"
                     android:drawablePadding="10dp"
@@ -127,7 +126,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Please Sync Data Before Login"
+                    android:text="Create an Account"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textStyle="bold" />
@@ -141,7 +140,7 @@
                     android:layout_marginTop="5dp"
                     android:layout_marginRight="40dp"
                     android:background="@drawable/button_background"
-                    android:text="SYNC DATA"
+                    android:text="Sign Up"
                     android:textColor="@android:color/white" />
 
             </LinearLayout>
