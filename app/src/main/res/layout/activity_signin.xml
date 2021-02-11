@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".Main2Activity">
+    tools:context=".SigninActivity">
 
     <LinearLayout
         android:id="@+id/toolbar"
@@ -160,7 +160,7 @@
                     android:text="Version 2.1"
                     android:gravity="center"
                     android:textColor="@android:color/black"
-                    android:textStyle="bold" />
+                    android:textStyle="italic" />
 
             </LinearLayout>
 
